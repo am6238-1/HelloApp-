@@ -9,6 +9,7 @@ public class HelloApp {
             for (String name : args) {
                 names += name + ", ";
             }
+
             names = names.substring(0, names.length() - 2);
 
             System.out.println("Hello, " + names + "!");
